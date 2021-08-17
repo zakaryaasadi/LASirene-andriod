@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/mrl_input"
+        android:layout_marginRight="@dimen/mrl_input"
+        android:layout_marginBottom="@dimen/mb_input"
+        android:paddingLeft="@dimen/prl_input"
+        android:paddingRight="@dimen/prl_input"
+        android:background="@drawable/bg_color_edit_rounded">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_date_white"
+            android:layout_gravity="center"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:text="@string/date_of_birth"
+            android:textColor="@color/hintcolor"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/mrl_input"
+        android:layout_marginRight="@dimen/mrl_input"
+        android:layout_marginBottom="@dimen/mb_input"
+        android:paddingLeft="@dimen/prl_input"
+        android:paddingRight="@dimen/prl_input"
+        android:background="@drawable/bg_color_edit_rounded">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_date_white"
+            android:layout_gravity="center"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:text="HH:MM"
+            android:textColor="@color/hintcolor"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_color_edit_rounded"
+        android:layout_marginRight="@dimen/mrl_input"
+        android:layout_marginLeft="@dimen/mrl_input"
+        android:paddingTop="@dimen/ptb_input"
+        android:paddingBottom="@dimen/ptb_input"/>
+
+
+</LinearLayout>

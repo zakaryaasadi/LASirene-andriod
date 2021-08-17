@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_sign_in" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_opacity" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                android:paddingRight="57dp"
+                android:paddingLeft="57dp"
+                android:layout_marginBottom="64dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="@dimen/mrl_input"
+            android:paddingLeft="@dimen/mrl_input">
+
+            <ImageView
+                android:src="@drawable/ic_esaad"
+                android:layout_width="106.2dp"
+                android:layout_height="106.2dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:padding="15dp"
+                android:background="@drawable/dark_green_rect"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:src="@drawable/ic_fazaa"
+                android:layout_width="106.2dp"
+                android:layout_height="106.2dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:src="@drawable/ic_alsaada"
+                android:layout_width="270dp"
+                android:layout_height="106.2dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:padding="15dp"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="5dp"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_submit" />
+
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_location_gents" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_opacity" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mt_toolbar"
+            android:layout_marginBottom="30dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_date"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/mrl_input"
+            android:layout_marginRight="@dimen/mrl_input"
+            android:layout_marginBottom="15dp">
+
+
+            <LinearLayout
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_color_edit"
+                android:padding="8dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_date_white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_color_edit"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_option_white"
+                android:layout_weight="0.01"
+                android:background="@color/black_opacity"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_time"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/mrl_input"
+            android:layout_marginRight="@dimen/mrl_input"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_color_edit"
+                android:padding="8dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_time_white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_color_edit"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_option_white"
+                android:layout_weight="0.01"
+                android:padding="8dp"
+                android:background="@color/black_opacity"/>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_color_edit_rounded"
+            android:layout_marginRight="@dimen/mrl_input"
+            android:layout_marginLeft="@dimen/mrl_input"
+            android:paddingTop="@dimen/ptb_input"
+            android:paddingBottom="@dimen/ptb_input"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/add_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/submit"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/mrl_input"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/white_outline_rect"
+        android:gravity="center">
+
+
+        <customfonts.TextViewSFProDisplayBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ptb_input"
+            android:layout_marginBottom="@dimen/ptb_input"
+            android:gravity="center"
+            android:text="@string/add_more"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/mrl_input"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/white_outline_rect"
+        android:gravity="center">
+
+
+        <customfonts.TextViewSFProDisplayBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ptb_input"
+            android:layout_marginBottom="@dimen/ptb_input"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

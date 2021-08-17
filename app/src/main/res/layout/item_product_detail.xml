@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_opacity"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="15dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="SHORT HAIR"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="700 - 1000 AED"
+            android:textStyle="bold"
+            android:textSize="11.7sp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/new_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400 - 1000 AED"
+            android:textColor="@color/lightGold"
+            android:textSize="11.7sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="1 HOUR - 1 HOUR 30 MINUTES"
+            android:textStyle="normal"
+            android:textSize="11.3sp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <CheckBox
+        android:id="@+id/chk_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:button="@drawable/checkbox_background" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "73416519788",
+    "project_id": "la-sirene",
+    "storage_bucket": "la-sirene.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73416519788:android:c18869d2b96e8a939be849",
+        "android_client_info": {
+          "package_name": "com.lasirene"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73416519788-0ikgo9ksatct66reljqbl6i5itceo1lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lasirene",
+            "certificate_hash": "c99ac80a79b9def63468611615e60aea393f5af8"
+          }
+        },
+        {
+          "client_id": "73416519788-fpq2cgg39772nj9ho2k1jbsmgik9dbeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG43Ul5EomIWkkmrKc3deBqeEOYMpVktA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73416519788-fpq2cgg39772nj9ho2k1jbsmgik9dbeo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

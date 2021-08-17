@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_opacity"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="15dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="SHORT HAIR"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginBottom="16.7dp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.7dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="700 - 1000 AED"
+            android:textColor="@color/white"
+            android:textSize="12.7sp"
+            android:textStyle="bold" />
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/product_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16.7dp"
+
+            android:text="1 HOUR - 1 HOUR 30 MINUTES"
+            android:textStyle="normal"
+            android:textSize="11.3sp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <customfonts.TextViewSFProDisplayBold
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400 - 1000 AED"
+            android:layout_marginBottom="16.7dp"
+            android:layout_marginTop="5.5dp"
+            android:textColor="@color/white"
+            android:textSize="11.7sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <customfonts.TextViewSFProDisplayBold
+            android:id="@+id/new_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400 - 1000 AED"
+            android:layout_marginTop="5.5dp"
+            android:textColor="@color/lightGold"
+            android:textSize="11.7sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

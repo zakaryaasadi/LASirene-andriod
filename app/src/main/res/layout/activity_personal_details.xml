@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_sign_in" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_opacity" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_user_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.EditText_Roboto_Regular
+                    android:id="@+id/full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/first_and_last_name"
+                    android:lineSpacingExtra="2.7sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/ptb_input"
+                    android:paddingTop="@dimen/ptb_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_local_phone_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.EditText_Roboto_Regular
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:lineSpacingExtra="2.7sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/ptb_input"
+                    android:paddingTop="@dimen/ptb_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_date_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:id="@+id/date_of_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="13dp"
+                    android:text="@string/date_of_birth"
+                    android:textColor="@color/hintcolor"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_color_edit_rounded"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:paddingTop="@dimen/ptb_input"
+                android:paddingBottom="@dimen/ptb_input">
+
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/white"
+                    android:checked="true"
+                    android:buttonTint="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/female"
+                    android:textColor="@color/white"
+                    android:buttonTint="@color/white"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mrl_input"
+        android:layout_marginRight="@dimen/mrl_input"
+        android:background="@drawable/white_rect"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true">
+
+
+        <customfonts.TextViewSFProDisplayBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/ptb_input"
+            android:layout_marginBottom="@dimen/ptb_input"
+            android:gravity="center"
+            android:text="@string/continue1"
+            android:textColor="@color/black_txt_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>

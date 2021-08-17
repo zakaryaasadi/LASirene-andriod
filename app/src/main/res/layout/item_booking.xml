@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="8.5dp"
+    android:layout_marginTop="11dp"
+    android:layout_marginRight="8.5dp"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp"
+    android:elevation="1dp"
+    app:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="9.3dp"
+            android:paddingRight="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profileImage"
+                android:layout_width="52.3dp"
+                android:layout_height="52.3dp"
+                android:src="@drawable/user"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:id="@+id/customer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Christina Meyers"
+                    android:textColor="@color/blackTextColor"
+                    android:textSize="13.3sp" />
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/created_at"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.7dp"
+                    android:text="Fri, 12 May 2017 . 14.30"
+                    android:textColor="@color/gretTxtColor"
+                    android:textSize="13.3sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16.7dp">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/booking_id"
+                android:textColor="@color/blackTextColor"
+                android:textSize="13.3sp" />
+
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/booking_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@color/blackTextColor"
+                android:textSize="13.3sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16.7dp">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/date"
+                android:textColor="@color/blackTextColor"
+                android:textSize="13.3sp" />
+
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@color/blackTextColor"
+                android:textSize="13.3sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.7dp"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:text="@string/location"
+                android:textColor="@color/blackTextColor"
+                android:textSize="13.3sp" />
+
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.7dp"
+                android:lineSpacingExtra="5sp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:textColor="@color/blackTextColor"
+                android:textSize="13.3sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="23.8dp"
+            android:background="#30979797" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.7"
+                android:background="@drawable/green_rect"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp">
+
+
+                    <customfonts.TextViewSFProDisplayMedium
+                        android:id="@+id/status_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="@string/completed"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:textColor="#fff"
+                        android:textSize="13.3sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/open"
+                android:textColor="#fa8e00"
+                android:textSize="11.7dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

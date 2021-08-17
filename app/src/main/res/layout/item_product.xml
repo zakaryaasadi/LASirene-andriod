@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="27.5dp"
+    android:layout_marginRight="11dp"
+    android:background="@drawable/black_opacity_rect"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_vertical">
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.5dp"
+            android:text="Full Color w/ Inoa"
+            android:textSize="11.7sp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"/>
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Color w/ Inoa"
+            android:layout_marginTop="5.5dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="8.3sp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <customfonts.MyTextView_Roboto_Bold
+           android:id="@+id/price"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="400 - 1000 AED"
+           android:layout_marginTop="5.5dp"
+           android:textColor="@color/white"
+           android:textSize="11.7sp"
+           android:textStyle="bold"
+           android:ellipsize="end"
+           android:maxLines="1"/>
+
+       <customfonts.MyTextView_Roboto_Bold
+           android:id="@+id/new_price"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="400 - 1000 AED"
+           android:layout_marginTop="5.5dp"
+           android:textColor="@color/lightGold"
+           android:textSize="11.7sp"
+           android:textStyle="bold"
+           android:ellipsize="end"
+           android:maxLines="1"/>
+   </LinearLayout>
+
+
+
+</LinearLayout>

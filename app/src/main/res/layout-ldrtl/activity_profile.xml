@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_sign_in" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_opacity" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="73.5dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:lineSpacingExtra="4.3sp"
+                android:text="@string/profile"
+                android:textColor="@color/white"
+                android:textSize="37.5sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_user_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.EditText_Roboto_Regular
+                    android:id="@+id/full_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:textDirection="rtl"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/first_and_last_name"
+                    android:lineSpacingExtra="2.7sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/ptb_input"
+                    android:paddingTop="@dimen/ptb_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_email_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.EditText_Roboto_Regular
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:textDirection="rtl"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/email"
+                    android:lineSpacingExtra="2.7sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/ptb_input"
+                    android:paddingTop="@dimen/ptb_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_local_phone_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.EditText_Roboto_Regular
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint="971xxxxxxxxx"
+                    android:lineSpacingExtra="2.7sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/ptb_input"
+                    android:paddingTop="@dimen/ptb_input"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="@dimen/mrl_input"
+                android:layout_marginBottom="@dimen/mb_input"
+                android:paddingLeft="@dimen/prl_input"
+                android:paddingRight="@dimen/prl_input"
+                android:background="@drawable/bg_color_edit_rounded">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_lock_outline_white"
+                    android:layout_gravity="center"/>
+
+                <customfonts.EditText_Roboto_Regular
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:hint="Change your password"
+                    android:lineSpacingExtra="2.7sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:paddingBottom="@dimen/ptb_input"
+                    android:paddingTop="@dimen/ptb_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/mrl_input"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/white_rect"
+                android:gravity="center">
+
+
+                <customfonts.TextViewSFProDisplayBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/ptb_input"
+                    android:layout_marginBottom="@dimen/ptb_input"
+                    android:gravity="center"
+                    android:text="@string/submit"
+                    android:textColor="@color/black_txt_color"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingTop="27dp"
+                android:paddingBottom="27dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

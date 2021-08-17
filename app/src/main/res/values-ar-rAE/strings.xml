@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لا سيرين</string>
+    <string name="about_us" translatable="false">حولنا</string>
+    <string name="cannot_refresh" translatable="false">لا يمكنك تحديث المحتوى</string>
+    <string name="confirm_password" translatable="false">تأكيد كلمة المرور</string>
+    <string name="contact_us" translatable="false">اتصل بنا</string>
+    <string name="continue1" translatable="false">استمر</string>
+    <string name="email" translatable="false">البريد الإلكتروني</string>
+    <string name="female" translatable="false">أنثى</string>
+    <string name="first_and_last_name" translatable="false">الاسم بالكامل</string>
+    <string name="forget_password" translatable="false">هل نسيت كلمة المرور؟</string>
+    <string name="gents" translatable="false">للرجال</string>
+    <string name="ladies" translatable="false">للسيدات</string>
+    <string name="language" translatable="false">اللغة</string>
+    <string name="logout" translatable="false">تسجيل خروج</string>
+    <string name="male" translatable="false">ذكر</string>
+    <string name="nothing" translatable="false">لا يوجد معلومات</string>
+    <string name="password" translatable="false">كلمة المرور</string>
+    <string name="phone_number" translatable="false">05xxxxxxxx</string>
+    <string name="please_check_your_connection" translatable="false">عذرا, لايمكننا الوصول إلى الشبكة, رجاء قم بالتحقق</string>
+    <string name="products" translatable="false">المنتجات</string>
+    <string name="sign_in" translatable="false">تسجيل دخول</string>
+    <string name="sign_in_with_your_account" translatable="false">تسجيل دخول من خلال حسابك</string>
+    <string name="sign_up" translatable="false">تسجيل</string>
+    <string name="try_again" translatable="false">حاول مرة أخرى</string>
+    <string name="confirm_sms" translatable="false">سجل موعدك الآن واحصل على تأكيد فوري عبر الرسائل القصيرة. تطبق الشروط والأحكام</string>
+    <string name="we_care_about_your_hair" translatable="false">نحن نهتم بشعرك</string>
+    <string name="services">خدمات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="submit">تنفيذ</string>
+    <string name="news">أخبار</string>
+    <string name="cart">السلة</string>
+    <string name="see_more">أقرأ أكثر</string>
+    <string name="see_less">تصغير</string>
+    <string name="serivce_has_been_added">تم إضافة الخدمة إلى السلة</string>
+    <string name="valid_email">رجاءً أدخل البريد الإلكتروني</string>
+    <string name="valid_password">رجاءً أدخل كلمة المرور</string>
+    <string name="email_or_password_incorrent">البريد الإلكتروني أو كلمة المرور غير صحيحة</string>
+    <string name="date_of_birth">يوم-شهر-سنة</string>
+    <string name="valid_phone">رجاءً أدخل رقم الهاتف</string>
+    <string name="delete">حذف</string>
+    <string name="done">تم</string>
+    <string name="password_not_match">كلمتين المرور عير متطابقتين</string>
+    <string name="please_wait">انتظر قليلا</string>
+    <string name="valid_date_of_birth">رجاءً أدخل كلمة المرور</string>
+    <string name="valid_full_name">رجاءً أدخل الاسم</string>
+    <string name="more_sections">أقسام إضافية</string>
+    <string name="our_social_networks">شبكة التواصل الاجتماعي</string>
+    <string name="powered_by">إنتاج: </string>
+    <string name="copyright">جميع الحقوق محفوظة LA Sirene BEAUTY &amp; SPA</string>
+    <string name="la_sirene_team">La Sirene فريق</string>
+    <string name="burj_al_arab">برج العرب</string>
+    <string name="al_wasl">الوصل</string>
+    <string name="four_seasons" translatable="false">فندق فور سيزن</string>
+    <string name="jbr">جي بي أر</string>
+    <string name="add_more">إضافة خدمات</string>
+    <string name="appointment">أحجز موعد</string>
+    <string name="date">تاريخ</string>
+    <string name="next">التالي</string>
+    <string name="time">الوقت</string>
+    <string name="location">الموقع:</string>
+    <string name="open">فتح</string>
+    <string name="completed">اكتمل</string>
+    <string name="my_booking">مواعيدي</string>
+    <string name="booking_details">تفاصيل الموعد</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="booking_id">رقم الموعد:</string>
+    <string name="add_to_cart">إضافة إلى السلة</string>
+    <string name="membership">عضوية</string>
+    <string name="our_location">مواقعنا</string>
+</resources>

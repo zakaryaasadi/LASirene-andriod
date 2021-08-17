@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white">
+
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="232.2dp"
+        android:background="@color/black_txt_color"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorUnselectedColor="#f9f9f9"
+        app:sliderIndicatorSelectedColor="@color/colorAccent" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.7dp"
+        android:lineSpacingExtra="5sp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="date"
+        android:textColor="@color/gretTxtColor"
+        android:textSize="13.3sp" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.7dp"
+        android:lineSpacingExtra="5sp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="Lorem Ipsum is simply dummy text of the printing
+and typesetting industry."
+        android:textColor="@color/blackTextColor"
+        android:textSize="13.3sp" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:id="@+id/see_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="2.3sp"
+        android:paddingLeft="18dp"
+        android:paddingTop="5dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="5dp"
+        android:text="@string/see_more"
+        android:textColor="@color/orange"
+        android:textSize="13.3sp"
+        android:textStyle="normal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" />
+</LinearLayout>
